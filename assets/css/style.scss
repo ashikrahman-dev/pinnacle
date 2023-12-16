@@ -1,154 +1,154 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Libre+Franklin:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Libre+Franklin:wght@300;400;500;700&display=swap");
 
 /* reset, root */
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	padding: 0;
-	margin: 0;
-	font-family: 'Libre Franklin', sans-serif;
-	font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
 }
 
-
-
 :root {
-	--primary-blue: #17134C;
-	--light-blue: #EFEFF6;
-	--secondary-yellow: #F7B112;
-	--light-yellow: #FAF7EF;
-	--gray-1: #3F3E4E;
-	--gray-2: ##CBCAE1;
+  --primary-blue: #17134c;
+  --light-blue: #efeff6;
+  --secondary-yellow: #f7b112;
+  --light-yellow: #faf7ef;
+  --gray-1: #3f3e4e;
+  --gray-2: #cbcae1;
 }
 
 /* reset, root - END */
 
-
 /* helper , base classes */
 .font-inter {
-	font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 // colors class - Start
 .text-clr-primary-blue {
-	color: var(--primary-blue);
+  color: var(--primary-blue);
 }
 .text-clr-light-blue {
-	color: var(--light-blue);
+  color: var(--light-blue);
 }
 .text-clr-secondary-yellow {
-	color: var(--secondary-yellow);
+  color: var(--secondary-yellow);
 }
 .text-clr-light-yellow {
-	color: var(--light-yellow);
+  color: var(--light-yellow);
 }
 .text-gray-1 {
-	color: var(--gray-1)
+  color: var(--gray-1);
 }
 .text-gray-2 {
-	color: var(--gray-2)
+  color: var(--gray-2);
 }
 .bg-primary-blue {
-	background-color: var(--primary-blue);
+  background-color: var(--primary-blue);
 }
 .bg-light-blue {
-	background-color: var(--light-blue);
+  background-color: var(--light-blue);
 }
 .bg-secondary-yellow {
-	background-color: var(--secondary-yellow);
+  background-color: var(--secondary-yellow);
 }
 .bg-light-yellow {
-	background-color: var(--light-yellow);
+  background-color: var(--light-yellow);
 }
 // colors class - End
 
-
-
 // Font weight and Font size
 .fw-300 {
-	font-weight: 300;
+  font-weight: 300;
 }
 
 .fs-12 {
-	font-size: 12px;
+  font-size: 12px;
 }
 .fs-13 {
-	font-size: 13px;
+  font-size: 13px;
 }
 .fs-18 {
-	font-size: 18px;
+  font-size: 18px;
 }
 .fs-22 {
-	font-size: 22px;
+  font-size: 22px;
 }
 .fs-26 {
-	font-size: 26px;
+  font-size: 26px;
 }
 .fs-48 {
-	font-size: 48px;
+  font-size: 48px;
 }
 .fs-56 {
-	font-size: 56px;
+  font-size: 56px;
 }
 
 .section-padding-120 {
-	padding-block: 120px;
+  padding-block: 120px;
 }
 .section-padding-180 {
-	padding-block: 180px;
+  padding-block: 180px;
 }
 // Font weight and Font size
 
-
 // Padding & Margin
+
+.pt-30 {
+  padding-top: 30px;
+}
+
 .pb-12 {
-	padding-bottom: 12px;
+  padding-bottom: 12px;
 }
 .pb-24 {
-	padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 .mb-24 {
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 .pb-30 {
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 .pb-32 {
-	padding-bottom: 32px;
+  padding-bottom: 32px;
+}
+.mb-12 {
+  margin-bottom: 12px;
 }
 .mb-30 {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .mb-32 {
-	margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 .pb-60 {
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
-.mb-60{
-	margin-bottom: 60px;
+.mb-60 {
+  margin-bottom: 60px;
 }
 
-
-.pl-30{
-	padding-left: 30;
+.pl-30 {
+  padding-left: 30;
 }
-.ml-30{
-	margin-left: 30;
+.ml-30 {
+  margin-left: 30;
 }
 // Padding & Margin
 
 /* helper , base classes -END */
 
-
 .container {
-    @media (min-width: 1920px) {
-        max-width: 1440px;
-        padding: 0 15px;
-    }
+  @media (min-width: 1920px) {
+    max-width: 1440px;
+    padding: 0 15px;
+  }
 }

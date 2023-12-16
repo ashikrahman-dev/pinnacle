@@ -15,12 +15,12 @@ body {
 }
 
 :root {
-  --primary-blue: #17134C;
-  --light-blue: #EFEFF6;
-  --secondary-yellow: #F7B112;
-  --light-yellow: #FAF7EF;
-  --gray-1: #3F3E4E;
-  --gray-2: ##CBCAE1;
+  --primary-blue: #17134c;
+  --light-blue: #efeff6;
+  --secondary-yellow: #f7b112;
+  --light-yellow: #faf7ef;
+  --gray-1: #3f3e4e;
+  --gray-2: #cbcae1;
 }
 
 /* reset, root - END */
@@ -109,6 +109,10 @@ body {
   padding-block: 180px;
 }
 
+.pt-30 {
+  padding-top: 30px;
+}
+
 .pb-12 {
   padding-bottom: 12px;
 }
@@ -127,6 +131,10 @@ body {
 
 .pb-32 {
   padding-bottom: 32px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
 }
 
 .mb-30 {
