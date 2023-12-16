@@ -1,3 +1,22 @@
 .why-pinnacle{
-    background-color: red;
+
+    .text-content{
+
+        p{
+            max-width: 85%;
+            line-height: 1.45em;
+        }
+    }
+    
+}
+
+.treatment{
+    .treatment-feature-wrapper{
+        .treatment-feature-item{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 30px;
+        }
+    }
 }
