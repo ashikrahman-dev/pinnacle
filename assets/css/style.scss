@@ -332,3 +332,59 @@ ul {
 	}
 }
 /*--- Call to action -/End ---*/
+
+/*--- why pinnacle -/End ---*/
+.why-pinnacle{
+
+    .text-content{
+
+        p{
+            max-width: 85%;
+            line-height: 1.45em;
+        }
+    }
+    
+}
+/*--- why pinnacle -/End ---*/
+
+
+/*--- Treatment -/End ---*/
+.treatment{
+    .treatment-feature-wrapper{
+        .treatment-feature-item{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 30px;
+        }
+    }
+}
+/*--- Treatment -/End ---*/
+
+
+/*--- Map -/Start ---*/
+.map-wrapper {
+	position: relative;
+	overflow: hidden;
+
+	.map-address-card {
+	position: absolute;
+	top: 22%;
+	left: 15%;
+	max-width: 450px;
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 6px 10px 40px 0px rgba(0, 0, 0, 0.12);
+	padding: 30px;
+		.address-info{
+			margin-top: 30px;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			gap: 24px;
+
+		}
+	}
+}
+/*--- Map -/End ---*/
+
