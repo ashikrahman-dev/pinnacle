@@ -187,7 +187,15 @@ ul {
 /* helper , base classes -END */
 /*--- Header menubar -/Start ---*/
 .header-navbar-wrap {
-  margin-bottom: -106px;
+  position: absolute;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.08);
+}
+@media (max-width: 991px) {
+  .header-navbar-wrap {
+    box-shadow: 0 10px 20px rgba(23, 19, 76, 0.08);
+  }
 }
 
 .blue-btn a {
@@ -199,7 +207,6 @@ ul {
   gap: 10px;
   transition: all 250ms ease-in-out;
 }
-
 .blue-btn a:hover {
   background-color: var(--secondary-yellow);
   color: var(--primary-blue) !important;
@@ -207,6 +214,11 @@ ul {
 
 .navbar-wrap {
   padding-block: 22px;
+}
+@media (max-width: 991px) {
+  .navbar-wrap {
+    padding-block: 15px;
+  }
 }
 .navbar-wrap .navbar-toggler:focus {
   outline: none;
@@ -261,6 +273,16 @@ ul {
   }
 }
 
+/*--- Header menubar -/End ---*/
+/*--- Banner section -/Start ---*/
+.banner-wrap {
+  padding-block: 140px 120px;
+}
+
+.banner-image-wrap {
+  margin-left: 68px;
+}
+
 .dubble-btn-wrap {
   display: flex;
   gap: 16px;
@@ -290,14 +312,22 @@ ul {
   border-color: var(--primary-blue);
 }
 
-/*--- Header menubar -/End ---*/
-/*--- Banner section -/Start ---*/
-.banner-wrap {
-  padding-block: 140px 120px;
+.cta-button-wrap .yellow-fill-btn:hover {
+  background: transparent !important;
+  color: var(--secondary-yellow) !important;
+  border-color: var(--secondary-yellow) !important;
 }
 
-.banner-image-wrap {
-  margin-left: 68px;
+/*--- Banner section -/End ---*/
+/*--- Call to action -/End ---*/
+.call-to-action {
+  background-image: url("../img/call-to-action-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.call-to-action .cta-inner-wrap {
+  max-width: 927px;
 }
 
-/*--- Banner section -/End ---*//*# sourceMappingURL=style.css.map */
+/*--- Call to action -/End ---*//*# sourceMappingURL=style.css.map */
