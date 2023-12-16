@@ -127,6 +127,9 @@ ul {
 	@media (max-width: 1199px) {
 		font-size: 20px;
 	}
+	@media (max-width: 991px) {
+		font-size: 18px;
+	}
 }
 
 .fs-26 {
@@ -141,6 +144,9 @@ ul {
 	}
 	@media (max-width: 1199px) {
 		font-size: 38px;
+	}
+	@media (max-width: 991px) {
+		font-size: 32px;
 	}
 }
 
@@ -167,6 +173,18 @@ ul {
 
 .section-padding-180 {
 	padding-block: 180px;
+	@media (max-width: 1399px) {
+		padding-block: 150px;
+	}
+	@media (max-width: 1199px) {
+		padding-block: 120px;
+	}
+	@media (max-width: 991px) {
+		padding-block: 100px;
+	}
+	@media (max-width: 767px) {
+		padding-block: 80px;
+	}
 }
 
 // Font weight and Font size
@@ -218,6 +236,12 @@ ul {
 
 .mb-60 {
 	margin-bottom: 60px;
+	@media (max-width: 1199px) {
+		margin-bottom: 50px;
+	}
+	@media (max-width: 991px) {
+		margin-bottom: 40px;
+	}
 }
 
 .pl-30 {
@@ -272,7 +296,6 @@ ul {
 
 .navbar-wrap {
 	padding-block: 22px;
-
 	@media (max-width: 991px) {
 		padding-block: 15px;
 	}
@@ -350,6 +373,12 @@ ul {
 
 .banner-image-wrap {
 	margin-left: 68px;
+	@media (max-width: 1199px) {
+		margin-left: 0px;
+		img {
+			max-width: 500px;
+		}
+	}
 }
 
 .dubble-btn-wrap {
@@ -362,7 +391,7 @@ ul {
 	border-radius: 100px;
 	transition: all 200ms ease-in-out;
 	border: 1px solid var(--secondary-yellow);
-
+	display: inline-block;
 	&:hover {
 		background: var(--primary-blue);
 		color: #ffffff;
@@ -375,6 +404,7 @@ ul {
 	border-radius: 100px;
 	transition: all 200ms ease-in-out;
 	border: 1px solid var(--primary-blue);
+	display: inline-block;
 
 	&:hover {
 		background: var(--primary-blue) !important;
@@ -384,6 +414,7 @@ ul {
 }
 
 .cta-button-wrap {
+	display: inline-block;
 	.yellow-fill-btn {
 		&:hover {
 			background: transparent !important;
@@ -403,10 +434,12 @@ ul {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-
 	.cta-inner-wrap {
 		max-width: 927px;
-
+		padding-inline: 30px;
+		@media (max-width: 767px) {
+			padding-inline: 10px;
+		}
 	}
 }
 
@@ -414,9 +447,7 @@ ul {
 
 /*--- why pinnacle -/End ---*/
 .why-pinnacle {
-
 	.text-content {
-
 		p {
 			max-width: 85%;
 			line-height: 1.45em;
@@ -427,10 +458,41 @@ ul {
 
 /*--- why pinnacle -/End ---*/
 
+/*--- Doctor section -/End ---*/
+.doctor-paul-img {
+	padding-top: 30px;
+	@media (max-width: 991px) {
+        padding-top: 80px;
+		img {
+			max-width: 500px;
+		}
+    }
+}
+.doctor-section-content {
+	padding-block: 125px;
+	@media (max-width: 1399px) {
+        padding-block: 100px;
+    }
+	@media (max-width: 1199px) {
+        padding-block: 80px;
+    }
+	@media (max-width: 991px) {
+        padding-block: 50px 80px;
+    }
+}
+/*--- Doctor section -/End ---*/
 
 /*--- Treatment -/End ---*/
 .treatment {
 	.treatment-feature-wrapper {
+		.learn-more-btn {
+			border-bottom: 1px solid var(--primary-blue);
+			transition: all 200ms ease-in-out;
+			&:hover {
+				color: var(--secondary-yellow);
+				border-color: var(--secondary-yellow);
+			}
+		}
 		.treatment-feature-item {
 			display: flex;
 			justify-content: flex-start;
@@ -438,6 +500,7 @@ ul {
 			gap: 30px;
 		}
 	}
+
 }
 
 /*--- Treatment -/End ---*/
@@ -472,7 +535,7 @@ ul {
 /*--- Map -/End ---*/
 
 
-/*---- Footer style - Start ----*/
+/*--- Footer style - Start ---*/
 .footer{
     padding-top: 120px;
     @media (max-width:776px) {
@@ -552,4 +615,4 @@ ul {
         }
     }
 }
-/*---- Footer style - End ----*/
+/*--- Footer style - End ---*/
