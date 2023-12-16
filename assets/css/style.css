@@ -124,6 +124,11 @@ ul {
     font-size: 20px;
   }
 }
+@media (max-width: 991px) {
+  .fs-22 {
+    font-size: 18px;
+  }
+}
 
 .fs-26 {
   font-size: 26px;
@@ -141,6 +146,11 @@ ul {
 @media (max-width: 1199px) {
   .fs-48 {
     font-size: 38px;
+  }
+}
+@media (max-width: 991px) {
+  .fs-48 {
+    font-size: 32px;
   }
 }
 
@@ -175,6 +185,26 @@ ul {
 
 .section-padding-180 {
   padding-block: 180px;
+}
+@media (max-width: 1399px) {
+  .section-padding-180 {
+    padding-block: 150px;
+  }
+}
+@media (max-width: 1199px) {
+  .section-padding-180 {
+    padding-block: 120px;
+  }
+}
+@media (max-width: 991px) {
+  .section-padding-180 {
+    padding-block: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .section-padding-180 {
+    padding-block: 80px;
+  }
 }
 
 .pt-30 {
@@ -224,6 +254,16 @@ ul {
 
 .mb-60 {
   margin-bottom: 60px;
+}
+@media (max-width: 1199px) {
+  .mb-60 {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .mb-60 {
+    margin-bottom: 40px;
+  }
 }
 
 .pl-30 {
@@ -348,6 +388,14 @@ ul {
 .banner-image-wrap {
   margin-left: 68px;
 }
+@media (max-width: 1199px) {
+  .banner-image-wrap {
+    margin-left: 0px;
+  }
+  .banner-image-wrap img {
+    max-width: 500px;
+  }
+}
 
 .dubble-btn-wrap {
   display: flex;
@@ -359,6 +407,7 @@ ul {
   border-radius: 100px;
   transition: all 200ms ease-in-out;
   border: 1px solid var(--secondary-yellow);
+  display: inline-block;
 }
 .yellow-fill-btn:hover {
   background: var(--primary-blue);
@@ -371,6 +420,7 @@ ul {
   border-radius: 100px;
   transition: all 200ms ease-in-out;
   border: 1px solid var(--primary-blue);
+  display: inline-block;
 }
 .minimal-border-btn:hover {
   background: var(--primary-blue) !important;
@@ -378,6 +428,9 @@ ul {
   border-color: var(--primary-blue);
 }
 
+.cta-button-wrap {
+  display: inline-block;
+}
 .cta-button-wrap .yellow-fill-btn:hover {
   background: transparent !important;
   color: var(--secondary-yellow) !important;
@@ -394,6 +447,12 @@ ul {
 }
 .call-to-action .cta-inner-wrap {
   max-width: 927px;
+  padding-inline: 30px;
+}
+@media (max-width: 767px) {
+  .call-to-action .cta-inner-wrap {
+    padding-inline: 10px;
+  }
 }
 
 /*--- Call to action -/End ---*/
@@ -404,7 +463,48 @@ ul {
 }
 
 /*--- why pinnacle -/End ---*/
+/*--- Doctor section -/End ---*/
+.doctor-paul-img {
+  padding-top: 30px;
+}
+@media (max-width: 991px) {
+  .doctor-paul-img {
+    padding-top: 80px;
+  }
+  .doctor-paul-img img {
+    max-width: 500px;
+  }
+}
+
+.doctor-section-content {
+  padding-block: 125px;
+}
+@media (max-width: 1399px) {
+  .doctor-section-content {
+    padding-block: 100px;
+  }
+}
+@media (max-width: 1199px) {
+  .doctor-section-content {
+    padding-block: 80px;
+  }
+}
+@media (max-width: 991px) {
+  .doctor-section-content {
+    padding-block: 50px 80px;
+  }
+}
+
+/*--- Doctor section -/End ---*/
 /*--- Treatment -/End ---*/
+.treatment .treatment-feature-wrapper .learn-more-btn {
+  border-bottom: 1px solid var(--primary-blue);
+  transition: all 200ms ease-in-out;
+}
+.treatment .treatment-feature-wrapper .learn-more-btn:hover {
+  color: var(--secondary-yellow);
+  border-color: var(--secondary-yellow);
+}
 .treatment .treatment-feature-wrapper .treatment-feature-item {
   display: flex;
   justify-content: flex-start;
@@ -437,7 +537,7 @@ ul {
 }
 
 /*--- Map -/End ---*/
-/*---- Footer style - Start ----*/
+/*--- Footer style - Start ---*/
 .footer {
   padding-top: 120px;
 }
@@ -509,4 +609,4 @@ ul {
   fill: var(--secondary-yellow);
 }
 
-/*---- Footer style - End ----*//*# sourceMappingURL=style.css.map */
+/*--- Footer style - End ---*//*# sourceMappingURL=style.css.map */
