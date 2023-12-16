@@ -23,6 +23,37 @@ body {
   --gray-2: ##CBCAE1;
 }
 
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 15px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /* reset, root - END */
 /* helper , base classes */
 .font-inter {
@@ -109,10 +140,6 @@ body {
   padding-block: 180px;
 }
 
-.pb-12 {
-  padding-bottom: 12px;
-}
-
 .pb-24 {
   padding-bottom: 24px;
 }
@@ -153,10 +180,76 @@ body {
   margin-left: 30;
 }
 
+.lt-1 {
+  letter-spacing: 1.2px;
+}
+
 /* helper , base classes -END */
-@media (min-width: 1920px) {
-  .container {
-    max-width: 1440px;
-    padding: 0 15px;
+/*--- Header menubar -/Start ---*/
+.blue-btn a {
+  border-radius: 100px;
+  display: inline-flex;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 250ms ease-in-out;
+}
+
+.blue-btn a:hover {
+  background-color: var(--secondary-yellow);
+  color: var(--primary-blue) !important;
+}
+
+.navbar-wrap {
+  padding-block: 22px;
+}
+.navbar-wrap .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.topbar-menu-wrap li.nav-item {
+  padding-inline: 15px;
+}
+@media (max-width: 1200px) {
+  .topbar-menu-wrap li.nav-item {
+    padding-inline: 5px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+.topbar-menu-wrap li.nav-item a {
+  position: relative;
+  color: var(--primary-blue) !important;
+}
+.topbar-menu-wrap li.nav-item a::after {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 1px;
+  left: 8px;
+  bottom: 5px;
+  background-color: var(--secondary-yellow);
+  transition: all 300ms ease-in-out;
+}
+@media (max-width: 991px) {
+  .topbar-menu-wrap li.nav-item a::after {
+    left: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .topbar-menu-wrap li.nav-item a {
+    font-size: 16px;
+  }
+}
+.topbar-menu-wrap li.nav-item a:hover::after {
+  width: 24px;
+}
+.topbar-menu-wrap li.nav-item .active {
+  color: var(--primary-blue) !important;
+}
+
+.topbar-menu-wrap {
+  padding-top: 25px;
+}
+
+/*--- Header menubar -/End ---*//*# sourceMappingURL=style.css.map */
