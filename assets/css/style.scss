@@ -144,3 +144,11 @@ body {
 // Padding & Margin
 
 /* helper , base classes -END */
+
+
+.container {
+    @media (min-width: 1920px) {
+        max-width: 1440px;
+        padding: 0 15px;
+    }
+}
