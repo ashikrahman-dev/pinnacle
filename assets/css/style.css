@@ -153,4 +153,10 @@ body {
   margin-left: 30;
 }
 
-/* helper , base classes -END *//*# sourceMappingURL=style.css.map */
+/* helper , base classes -END */
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
