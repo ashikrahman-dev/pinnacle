@@ -260,6 +260,24 @@ ul {
   .fs-4 {
     font-size: 20px !important; } }
 
+.pl-100 {
+  padding-left: 100px; }
+
+.mb-20 {
+  margin-bottom: 20px; }
+
+.border-top-left-radius-8 {
+  border-top-left-radius: 8px; }
+
+.border-top-left-radius-60 {
+  border-top-left-radius: 60px; }
+
+.border-bottom-right-radius-8 {
+  border-bottom-right-radius: 8px; }
+
+.border-bottom-right-radius-60 {
+  border-bottom-right-radius: 60px; }
+
 /* helper , base classes -END */
 @media (min-width: 1920px) {
   .container {
@@ -430,8 +448,13 @@ ul {
 /*--- Call to action -/End ---*/
 /*--- why pinnacle -/End ---*/
 .why-pinnacle .text-content p {
-  max-width: 85%;
+  max-width: 570px;
   line-height: 1.45em; }
+  @media (max-width: 1199px) {
+    .why-pinnacle .text-content p {
+      max-width: 100%; } }
+.why-pinnacle .text-content h2 {
+  max-width: 570px; }
 .why-pinnacle .pinnacle-sec-img {
   text-align: center; }
   @media (max-width: 991px) {
@@ -461,7 +484,7 @@ ul {
         width: 100%; } }
 
 .doctor-section-content {
-  padding-block: 125px; }
+  padding-block: 120px; }
   @media (max-width: 1399px) {
     .doctor-section-content {
       padding-block: 100px; } }
@@ -645,5 +668,37 @@ ul {
     fill: var(--secondary-yellow); }
 
 /*--- Footer style - End ---*/
+/*--- About page style - Start ---*/
+.recognition {
+  margin-bottom: 120px; }
+
+.recognition-card {
+  background-color: var(--light-yellow);
+  padding: 30px;
+  height: 100%; }
+  .recognition-card h4 {
+    line-height: 1.41; }
+  .recognition-card p {
+    line-height: 1.55em; }
+
+.icon-box-section-wrap {
+  padding-bottom: 120px; }
+  @media (max-width: 1399px) {
+    .icon-box-section-wrap {
+      padding-bottom: 100px; } }
+  @media (max-width: 1199px) {
+    .icon-box-section-wrap {
+      padding-bottom: 90px; } }
+  @media (max-width: 991px) {
+    .icon-box-section-wrap {
+      padding-bottom: 80px; } }
+  @media (max-width: 767px) {
+    .icon-box-section-wrap {
+      padding-bottom: 60px; } }
+  .icon-box-section-wrap .row {
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 24px; }
+
+/*--- About page style - End ---*/
 
 /*# sourceMappingURL=style.css.map */
