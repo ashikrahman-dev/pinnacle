@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Libre+Franklin:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Libre+Franklin:wght@300;400;500;700;900&display=swap");
 /* reset, root */
 * {
   padding: 0;
@@ -90,7 +90,10 @@ ul {
   background-color: var(--gray-3); }
 
 .fw-300 {
-  font-weight: 300; }
+  font-weight: 300 !important; }
+
+.fw-900 {
+  font-weight: 900 !important; }
 
 .fs-12 {
   font-size: 12px;
@@ -1093,10 +1096,19 @@ ul {
 /*  / common-banner */
 /*  care option */
 .care-option {
-  min-height: 588px;
+  padding-block: 140px;
   background-image: url(../img/careoption.png);
   background-repeat: no-repeat;
   background-size: cover; }
+  @media (max-width: 1199px) {
+    .care-option {
+      padding-block: 110px; } }
+  @media (max-width: 991px) {
+    .care-option {
+      padding-block: 90px; } }
+  @media (max-width: 767px) {
+    .care-option {
+      padding-block: 70px; } }
   .care-option .careOption-wrap {
     max-width: 927px;
     width: 100%;
@@ -1107,6 +1119,12 @@ ul {
 .affording-item {
   padding: 65px 60px;
   border-radius: 52px 0px; }
+  @media (max-width: 991px) {
+    .affording-item {
+      padding: 45px 40px; } }
+  @media (max-width: 767px) {
+    .affording-item {
+      padding: 35px 30px; } }
 
 /*  / affordable care- */
 /* treatment- */
