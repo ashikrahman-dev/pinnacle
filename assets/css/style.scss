@@ -881,6 +881,7 @@ ul {
         .map-iframe-inner {
             height: 100%;
             min-height: 800px;
+            pointer-events: none;
 
             @media (max-width: 1199px) {
                 min-height: 700px;
