@@ -772,4 +772,15 @@ ul {
   .contact-form-sec .contact-form-wrap .contact-form-content-area-wrap h2 {
     max-width: 500px; }
 
+.recognition-sec-img {
+  text-align: center; }
+  @media (max-width: 991px) {
+    .recognition-sec-img img {
+      max-width: 550px;
+      width: 100%; } }
+  @media (max-width: 767px) {
+    .recognition-sec-img img {
+      max-width: 450px;
+      width: 100%; } }
+
 /*--- About page style - End ---*/
