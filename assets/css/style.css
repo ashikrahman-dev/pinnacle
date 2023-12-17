@@ -261,6 +261,24 @@ ul {
   .fs-4 {
     font-size: 20px !important; } }
 
+.pl-100 {
+  padding-left: 100px; }
+
+.mb-20 {
+  margin-bottom: 20px; }
+
+.border-top-left-radius-8 {
+  border-top-left-radius: 8px; }
+
+.border-top-left-radius-60 {
+  border-top-left-radius: 60px; }
+
+.border-bottom-right-radius-8 {
+  border-bottom-right-radius: 8px; }
+
+.border-bottom-right-radius-60 {
+  border-bottom-right-radius: 60px; }
+
 /* helper , base classes -END */
 @media (min-width: 1920px) {
   .container {
@@ -683,6 +701,18 @@ ul {
 
 /*--- Footer style - End ---*/
 /*--- About page style - Start ---*/
+.recognition {
+  margin-bottom: 120px; }
+
+.recognition-card {
+  background-color: var(--light-yellow);
+  padding: 30px;
+  height: 100%; }
+  .recognition-card h4 {
+    line-height: 1.41; }
+  .recognition-card p {
+    line-height: 1.55em; }
+
 .icon-box-section-wrap {
   padding-bottom: 120px; }
   @media (max-width: 1399px) {
