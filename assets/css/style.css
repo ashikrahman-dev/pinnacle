@@ -775,6 +775,11 @@ ul {
 /*--- Locations page - Start ---*/
 .contact-info-and-map-wrapper .footer-widget {
   max-width: 412px; }
+  .contact-info-and-map-wrapper .footer-widget .footer-menu .footer-contact-wrap a {
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out; }
+    .contact-info-and-map-wrapper .footer-widget .footer-menu .footer-contact-wrap a:hover {
+      color: var(--secondary-yellow); }
   @media (max-width: 1199px) {
     .contact-info-and-map-wrapper .footer-widget .footer-menu .footer-contact-wrap .contactLogo {
       max-width: 70px;

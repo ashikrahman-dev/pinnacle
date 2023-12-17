@@ -1093,6 +1093,12 @@ ul {
 
         .footer-menu {
             .footer-contact-wrap {
+                a {
+                    transition: all 200ms ease-in-out;
+                    &:hover {
+                        color: var(--secondary-yellow);
+                    }
+                }
                 .contactLogo {
 
                     @media (max-width: 1199px) {
