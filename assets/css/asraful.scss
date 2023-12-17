@@ -1,0 +1,89 @@
+
+.ls-2{
+    letter-spacing: 1.2px;
+}
+/* common-banner */
+.common-banner {
+  padding-top: 154px;
+  padding-bottom: 100px;
+
+  .breadcrumb {
+    margin-top: 24px;
+    .breadcrumb-item {
+        color: var(--gray-1);
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    a{
+        color: var(--gray-1);
+        font-size: 12px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+    }
+  }
+  .circle-shape {
+    position: absolute;
+    left: -200px;
+    top: 100;
+    z-index: -10;
+    transform-origin: center;
+    transform: rotate(-75deg);
+    animation: animation-circle-shape 25s 0s linear infinite forwards;
+}
+@keyframes animation-circle-shape {
+    0%,
+    100% {
+        top: 00%;
+        left: -200px;
+        transform: rotate(-75deg);
+    }
+
+    20% {
+        left: 0px;
+        top: -10%;
+        transform: rotate(-60deg);
+    }
+
+    40% {
+        left: 10%;
+        top: 10%;
+        transform: rotate(0deg);
+    }
+
+    60% {
+        left: 30%;
+        top: 10%;
+        transform: rotate(30deg);
+    }
+
+    80% {
+        left: 0%;
+        top: 15%;
+        transform: rotate(50deg);
+    }
+}
+
+}
+/*  / common-banner */
+
+
+
+/*  care option */
+.care-option{
+    min-height: 588px;
+    background-image: url(../img/careoption.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .careOption-wrap{
+        max-width: 927px;
+        width: 100%;
+        margin: auto;
+    }
+}
+/*  / care- option */
