@@ -7,6 +7,17 @@
 .ls-2{
     letter-spacing: 1.2px;
 }
+.bg-gray3{
+    background-color: #EEEEF1;
+}
+.text-gray3{
+    color: #1F1E37;
+}
+.common-title{
+    max-width: 625px;
+    width: 100%;
+    margin: auto;
+}
 /* common-banner */
 .common-banner {
   padding-top: 154px;
@@ -107,3 +118,20 @@
     border-radius: 52px 0px;
 }
 /*  / affordable care- */
+
+
+/* treatment- */
+.treatment-wrap{
+margin-top: 70px;
+.treatment-row-item{
+    padding: 10px;
+    border-radius: 52px 0px 52px 0px;
+background: var(--white, #FFF);
+.treatment-image{
+    img{
+        border-radius: 52px 0px 0px 0px;
+    }
+}
+}
+}
+/*  / treatment */
