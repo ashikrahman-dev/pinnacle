@@ -22,6 +22,7 @@ body {
     --light-yellow: #faf7ef;
     --gray-1: #3f3e4e;
     --gray-2: #cbcae1;
+    --gray-3: #EEEEF1;
 }
 
 .container {
@@ -101,6 +102,10 @@ ul {
 
 .bg-light-yellow {
     background-color: var(--light-yellow);
+}
+
+.bg-gray-3 {
+    background-color: var(--gray-3);
 }
 
 // colors class - End
