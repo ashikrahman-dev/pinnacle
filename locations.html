@@ -40,6 +40,7 @@
     <!-- Bootstrap CSS - v5.3.2  -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/asraful.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 
@@ -118,58 +119,49 @@
     <!-- Header navbar -End -->
 
 
-    <!-- Home page banner -/Start -->
-    <section class="banner-wrap">
+    <!-- common banner -start -->
+    <div class="common-banner">
         <div class="container">
-            <div class="row align-items-center flex-column-reverse flex-lg-row">
-                <div class="col-lg-5">
-                    <div class="banner-content-wrap mt-5 mt-lg-0">
-                        <h5 class="banner-subtitle fs-12 fw-medium lt-1 text-uppercase text-gray-1 pb-24">Affordable,
-                            Personalized, Successful
-                        </h5>
-                        <h1 class="text-clr-primary-blue fs-56 fw-normal pb-24">
-                            Fulfilling Dreams by Building Families - Atlanta's Premier IVF Fertility Clinic
-                        </h1>
-                        <p class="fs-22 fw-light text-clr-primary-blue mb-32">Our expert team is dedicated to helping
-                            you
-                            achieve your dream of
-                            starting a family.
-                        </p>
-
-                        <!-- Button wrapper  -->
-                        <div class="dubble-btn-wrap d-flex flex-wrap">
-                            <a href="#" class="yellow-fill-btn bg-secondary-yellow fw-bold fs-6 text-clr-primary-blue">
-                                Schedule Now
-                            </a>
-                            <a href="#" class="minimal-border-btn bg-white fw-bold fs-6 text-clr-primary-blue">
-                                Learn More
-                            </a>
+            <div class="common-banner-wrap">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class=" text-clr-primary-blue fs-56 fw-normal">Locations</h2>
+                        <div class="breadcrumb-wrap">
+                            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Locations</li>
+                                </ol>
+                            </nav>
                         </div>
-                        <!-- Button wrapper  -->
-
                     </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="banner-image-wrap ">
-                        <img src="assets/img/banner-right-img.png" alt="Banner image" class="img-fluid">
+                    <div class="col-lg-6">
+                        <div class="common-banner-image position-relative">
+                            <img src="assets/img/locations-page-banner-img.png" class="img-fluid" alt="">
+                            <div class="d-inline">
+                                <img src="assets/img/circleImg.svg" class="img-fluid circle-shape" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Home page banner -/End -->
+    </div>
+    <!-- common banner -End -->
 
     <!-- Contact info & Map section -/Start -->
-    <section class="bg-gray-3 section-padding-120">
+    <section class="bg-gray-3 section-padding-120 contact-info-and-map-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="">
                         <h2 class="fs-48 text-clr-primary-blue fw-medium pb-3">
                             Pinnacle Atlanta IVF Fertility Clinic
                         </h2>
-                        <p class="fs-22 text-clr-primary-blue fw-300">
-                            Pinnacle Fertility Manhattan offers fertility treatments and preservation services for all types of families. Read on to learn more about our New York clinic offerings, team and how to get in touch.
+                        <p class="fs-22 text-clr-primary-blue fw-300 pb-60">
+                            Pinnacle Fertility Manhattan offers fertility treatments and preservation services for all
+                            types of families. Read on to learn more about our New York clinic offerings, team and how
+                            to get in touch.
                         </p>
 
                         <div class="footer-widget">
@@ -178,33 +170,19 @@
                                     <div class="footer-contact-wrap d-flex align-items-start gap-3 mb-4">
                                         <div
                                             class="contactLogo d-flex align-items-center justify-content-center flex-shrink-0">
-                                            <svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="41" cy="41" r="41" fill="#F7B112"/>
-                                                <path d="M52.675 32.1937L49.3469 28.8688C49.1121 28.6329 48.8331 28.4459 48.5258 28.3182C48.2185 28.1906 47.889 28.1249 47.5563 28.125C46.8781 28.125 46.2406 28.3906 45.7625 28.8688L42.1813 32.45C41.9454 32.6848 41.7584 32.9638 41.6307 33.2711C41.5031 33.5784 41.4374 33.9079 41.4375 34.2406C41.4375 34.9188 41.7031 35.5563 42.1813 36.0344L44.8 38.6531C44.187 40.0043 43.3348 41.2334 42.2844 42.2812C41.2366 43.3342 40.0076 44.1895 38.6563 44.8062L36.0375 42.1875C35.8027 41.9517 35.5237 41.7646 35.2164 41.637C34.9091 41.5093 34.5796 41.4437 34.2469 41.4438C33.5688 41.4438 32.9313 41.7094 32.4531 42.1875L28.8688 45.7656C28.6327 46.0008 28.4454 46.2804 28.3178 46.5882C28.1901 46.8961 28.1246 47.2261 28.125 47.5594C28.125 48.2375 28.3906 48.875 28.8688 49.3531L32.1906 52.675C32.9531 53.4406 34.0063 53.875 35.0875 53.875C35.3156 53.875 35.5344 53.8563 35.75 53.8188C39.9625 53.125 44.1406 50.8844 47.5125 47.5156C50.8813 44.15 53.1188 39.975 53.8219 35.75C54.0344 34.4594 53.6062 33.1312 52.675 32.1937V32.1937Z" fill="#0F0D2F"/>
-                                                </svg>
-                                                
-                                        </div>
-                                        <div>
-                                            <p class="text-clr-primary-blue pb-12 fs-4 fw-medium">Location</p>
-                                            <a class="text-clr-primary-blue fs-18"
-                                                href="https://maps.app.goo.gl/SD8paTM74fPz62Nr5">1801 Peachtree St NE
-                                                #220, Atlanta, GA 30309, USA</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="footer-menu">
-                                    <div class="footer-contact-wrap d-flex align-items-start gap-3 mb-4">
-                                        <div
-                                            class="contactLogo d-flex align-items-center justify-content-center flex-shrink-0">
-                                            <svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="41" cy="41" r="41" fill="#F7B112"/>
-                                                <path d="M41 35.2188C40.0656 35.2188 39.1875 35.5812 38.525 36.2437C38.1994 36.5684 37.9413 36.9542 37.7654 37.3789C37.5895 37.8037 37.4993 38.259 37.5 38.7188C37.5 39.6531 37.8656 40.5313 38.525 41.1938C38.8496 41.5193 39.2354 41.7775 39.6602 41.9534C40.0849 42.1293 40.5403 42.2195 41 42.2188C41.9344 42.2188 42.8125 41.8531 43.475 41.1938C44.1375 40.5313 44.5 39.6531 44.5 38.7188C44.5 37.7844 44.1375 36.9062 43.475 36.2437C42.8125 35.5812 41.9344 35.2188 41 35.2188ZM51.7062 34.0344C51.1179 32.6778 50.2697 31.4494 49.2094 30.4187C48.1456 29.3787 46.8915 28.5533 45.5156 27.9875C44.0844 27.3937 42.5656 27.0938 41 27.0938C39.4344 27.0938 37.9156 27.3938 36.4844 27.9844C35.1 28.5562 33.8594 29.375 32.7906 30.4156C31.731 31.4469 30.8829 32.6751 30.2937 34.0312C29.6844 35.4375 29.375 36.9312 29.375 38.4688C29.375 40.675 29.9031 42.8719 30.9406 44.9906C31.775 46.6938 32.9406 48.3531 34.4094 49.9312C36.9188 52.625 39.55 54.2719 40.2969 54.7125C40.5089 54.8377 40.7507 54.9036 40.9969 54.9031C41.2406 54.9031 41.4812 54.8406 41.6969 54.7125C42.4437 54.2719 45.075 52.625 47.5844 49.9312C49.0531 48.3562 50.2188 46.6938 51.0531 44.9906C52.0969 42.875 52.625 40.6813 52.625 38.4719C52.625 36.9344 52.3156 35.4406 51.7062 34.0344ZM41 44.2188C37.9625 44.2188 35.5 41.7562 35.5 38.7188C35.5 35.6813 37.9625 33.2188 41 33.2188C44.0375 33.2188 46.5 35.6813 46.5 38.7188C46.5 41.7562 44.0375 44.2188 41 44.2188Z" fill="#0F0D2F"/>
-                                                </svg>
-                                                
+                                            <svg width="82" height="82" viewBox="0 0 82 82" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="41" cy="41" r="41" fill="#F7B112" />
+                                                <path
+                                                    d="M52.675 32.1937L49.3469 28.8688C49.1121 28.6329 48.8331 28.4459 48.5258 28.3182C48.2185 28.1906 47.889 28.1249 47.5563 28.125C46.8781 28.125 46.2406 28.3906 45.7625 28.8688L42.1813 32.45C41.9454 32.6848 41.7584 32.9638 41.6307 33.2711C41.5031 33.5784 41.4374 33.9079 41.4375 34.2406C41.4375 34.9188 41.7031 35.5563 42.1813 36.0344L44.8 38.6531C44.187 40.0043 43.3348 41.2334 42.2844 42.2812C41.2366 43.3342 40.0076 44.1895 38.6563 44.8062L36.0375 42.1875C35.8027 41.9517 35.5237 41.7646 35.2164 41.637C34.9091 41.5093 34.5796 41.4437 34.2469 41.4438C33.5688 41.4438 32.9313 41.7094 32.4531 42.1875L28.8688 45.7656C28.6327 46.0008 28.4454 46.2804 28.3178 46.5882C28.1901 46.8961 28.1246 47.2261 28.125 47.5594C28.125 48.2375 28.3906 48.875 28.8688 49.3531L32.1906 52.675C32.9531 53.4406 34.0063 53.875 35.0875 53.875C35.3156 53.875 35.5344 53.8563 35.75 53.8188C39.9625 53.125 44.1406 50.8844 47.5125 47.5156C50.8813 44.15 53.1188 39.975 53.8219 35.75C54.0344 34.4594 53.6062 33.1312 52.675 32.1937V32.1937Z"
+                                                    fill="#0F0D2F" />
+                                            </svg>
+
                                         </div>
                                         <div>
                                             <p class="text-clr-primary-blue pb-12 fs-4 fw-medium">Phone Number</p>
-                                            <a class="text-clr-primary-blue fs-18" href="tel:+01 123 4567">+01 123 4567</a>
+                                            <a class="text-clr-primary-blue fs-18" href="tel:+01 123 4567">+01 123
+                                                4567</a>
                                         </div>
                                     </div>
                                 </li>
@@ -212,15 +190,39 @@
                                     <div class="footer-contact-wrap d-flex align-items-start gap-3 mb-4">
                                         <div
                                             class="contactLogo d-flex align-items-center justify-content-center flex-shrink-0">
-                                            <svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="41" cy="41" r="41" fill="#F7B112"/>
-                                                <path d="M54 30H28C27.4469 30 27 30.4469 27 31V51C27 51.5531 27.4469 52 28 52H54C54.5531 52 55 51.5531 55 51V31C55 30.4469 54.5531 30 54 30ZM51.475 33.4031L41.6156 41.075C41.3719 41.2656 41.0313 41.2656 40.7875 41.075L30.925 33.4031C30.8878 33.3744 30.8606 33.3348 30.847 33.2899C30.8335 33.2449 30.8344 33.1968 30.8495 33.1524C30.8647 33.1079 30.8934 33.0693 30.9316 33.042C30.9698 33.0147 31.0155 33 31.0625 33H51.3375C51.3845 33 51.4302 33.0147 51.4684 33.042C51.5066 33.0693 51.5353 33.1079 51.5505 33.1524C51.5656 33.1968 51.5665 33.2449 51.553 33.2899C51.5394 33.3348 51.5122 33.3744 51.475 33.4031V33.4031Z" fill="#0F0D2F"/>
-                                                </svg>                                                
+                                            <svg width="82" height="82" viewBox="0 0 82 82" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="41" cy="41" r="41" fill="#F7B112" />
+                                                <path
+                                                    d="M41 35.2188C40.0656 35.2188 39.1875 35.5812 38.525 36.2437C38.1994 36.5684 37.9413 36.9542 37.7654 37.3789C37.5895 37.8037 37.4993 38.259 37.5 38.7188C37.5 39.6531 37.8656 40.5313 38.525 41.1938C38.8496 41.5193 39.2354 41.7775 39.6602 41.9534C40.0849 42.1293 40.5403 42.2195 41 42.2188C41.9344 42.2188 42.8125 41.8531 43.475 41.1938C44.1375 40.5313 44.5 39.6531 44.5 38.7188C44.5 37.7844 44.1375 36.9062 43.475 36.2437C42.8125 35.5812 41.9344 35.2188 41 35.2188ZM51.7062 34.0344C51.1179 32.6778 50.2697 31.4494 49.2094 30.4187C48.1456 29.3787 46.8915 28.5533 45.5156 27.9875C44.0844 27.3937 42.5656 27.0938 41 27.0938C39.4344 27.0938 37.9156 27.3938 36.4844 27.9844C35.1 28.5562 33.8594 29.375 32.7906 30.4156C31.731 31.4469 30.8829 32.6751 30.2937 34.0312C29.6844 35.4375 29.375 36.9312 29.375 38.4688C29.375 40.675 29.9031 42.8719 30.9406 44.9906C31.775 46.6938 32.9406 48.3531 34.4094 49.9312C36.9188 52.625 39.55 54.2719 40.2969 54.7125C40.5089 54.8377 40.7507 54.9036 40.9969 54.9031C41.2406 54.9031 41.4812 54.8406 41.6969 54.7125C42.4437 54.2719 45.075 52.625 47.5844 49.9312C49.0531 48.3562 50.2188 46.6938 51.0531 44.9906C52.0969 42.875 52.625 40.6813 52.625 38.4719C52.625 36.9344 52.3156 35.4406 51.7062 34.0344ZM41 44.2188C37.9625 44.2188 35.5 41.7562 35.5 38.7188C35.5 35.6813 37.9625 33.2188 41 33.2188C44.0375 33.2188 46.5 35.6813 46.5 38.7188C46.5 41.7562 44.0375 44.2188 41 44.2188Z"
+                                                    fill="#0F0D2F" />
+                                            </svg>
+
                                         </div>
                                         <div>
-                                            <p class="text-clr-primary-blue pb-12 fs-4 fw-medium">Email Address</p>
+                                            <p class="text-clr-primary-blue pb-12 fs-4 fw-medium">Adresse</p>
                                             <a class="text-clr-primary-blue fs-18"
-                                                href="mailto:info@pinnacle.com">info@pinnacle.com</a>
+                                                href="https://maps.app.goo.gl/SD8paTM74fPz62Nr5">1801 Peachtree Street
+                                                NE, #220, Atlanta, GA 30309</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="footer-menu">
+                                    <div class="footer-contact-wrap d-flex align-items-start gap-3 mb-4">
+                                        <div
+                                            class="contactLogo d-flex align-items-center justify-content-center flex-shrink-0">
+                                            <svg width="82" height="82" viewBox="0 0 82 82" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="41" cy="41" r="41" fill="#F7B112" />
+                                                <path
+                                                    d="M54 30H28C27.4469 30 27 30.4469 27 31V51C27 51.5531 27.4469 52 28 52H54C54.5531 52 55 51.5531 55 51V31C55 30.4469 54.5531 30 54 30ZM51.475 33.4031L41.6156 41.075C41.3719 41.2656 41.0313 41.2656 40.7875 41.075L30.925 33.4031C30.8878 33.3744 30.8606 33.3348 30.847 33.2899C30.8335 33.2449 30.8344 33.1968 30.8495 33.1524C30.8647 33.1079 30.8934 33.0693 30.9316 33.042C30.9698 33.0147 31.0155 33 31.0625 33H51.3375C51.3845 33 51.4302 33.0147 51.4684 33.042C51.5066 33.0693 51.5353 33.1079 51.5505 33.1524C51.5656 33.1968 51.5665 33.2449 51.553 33.2899C51.5394 33.3348 51.5122 33.3744 51.475 33.4031V33.4031Z"
+                                                    fill="#0F0D2F" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p class="text-clr-primary-blue pb-12 fs-4 fw-medium">E-Mail</p>
+                                            <a class="text-clr-primary-blue fs-18"
+                                                href="mailto:helloatl@pinnaclefertility.com">HelloATL@pinnaclefertility.com</a>
                                         </div>
                                     </div>
                                 </li>
@@ -229,11 +231,65 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6"></div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="location-page-map-wrap">
+                        <img src="assets/img/map-image-for-location-page.png" alt="Location" class="img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- Contact info & Map section -/End -->
+
+
+    <!-- Call to action -/Start -->
+    <section class="location-cta-section section-padding-120 ">
+        <div class="container">
+            <div class="cta-inner-wrap text-center mx-auto">
+                <h2 class="text-white fs-48 fw-normal mb-24">
+                    Satellites coming to a <strong class="fw-bold">location</strong> <br class="d-none d-xl-block"> near
+                    you in 2024
+                </h2>
+                <p class="mb-4 text-white fs-22 fw-300">
+                    Pinnacle IVF is a proud partner of the Pinnacle Fertility Network. With 40+
+                    locations across the country, Pinnacle Fertility and its network of industry-leading fertility
+                    clinics provide access to those seeking family building services wherever they are.
+                </p>
+                <div class="cta-button-wrap pt-3">
+                    <a href="#" class="yellow-fill-btn bg-secondary-yellow fw-bold fs-6 text-clr-primary-blue">
+                        Schedule Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to action -/End -->
+
+    <!-- Contact form section -/ Start  -->
+    <section class="contact-form-sec section-padding-120">
+        <div class="container">
+            <div class="contact-form-wrap bg-light-yellow">
+                <div class="w-100 contact-form-content-area-wrap">
+                    <div class="pb-60">
+                        <img src="assets/img/contact-form-wrap-shap.svg" alt="Shape image" class="img-fluid">
+                    </div>
+                    <h2 class="fs-48 text-clr-primary-blue pb-24">
+                        Book Your <strong class="fw-bold">Introductory</strong> Call
+                    </h2>
+                    <p class="fs-22 fw-300 text-gray-4">
+                        The first step in your journey can be the hardest. But fertility treatments shouldn’t be complicated, and neither should getting started. Tell us a little about yourself by filling out our contact sheet so we know how to reach you. 
+                    </p>
+                </div>
+                <div class="contact-form-container bg-white w-100">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae corrupti beatae nesciunt
+                    incidunt, iure eius similique harum delectus at dolore! Quidem dolore consectetur vitae vero qui
+                    explicabo pariatur atque fugit.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact form section -/ End  -->
+
 
     <!-- Why Pinnacle start  -->
     <section class="why-pinnacle section-padding-120 bg-light-yellow">
@@ -394,24 +450,6 @@
     </section>
     <!-- Doctor Section end -->
 
-
-    <!-- Call to action -/Start -->
-    <section class="call-to-action section-padding-180 ">
-        <div class="container">
-            <div class="cta-inner-wrap text-center mx-auto">
-                <h2 class="text-white fs-48 fw-normal mb-60">
-                    Secure Your Expert <strong class="fw-bold">Consultation Now</strong> for Tailored Solutions to Your
-                    Needs!
-                </h2>
-                <div class="cta-button-wrap">
-                    <a href="#" class="yellow-fill-btn bg-secondary-yellow fw-bold fs-6 text-clr-primary-blue">
-                        Schedule Now
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Call to action -/End -->
 
 
     <!-- About Section start -->
